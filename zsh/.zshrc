@@ -60,6 +60,7 @@ zle -N edit-command-line
 bindkey -M vicmd v edit-command-line
 
 # Caution, this path changes in different Linux distributions
+# TODO: adjust the path in function of the distribution
 # source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
@@ -81,9 +82,12 @@ for index ({1..9}) alias "$index"="cd +${index}"; unset index
 # - CTRL+r to search in history
 # - ALT+c to navigate into a sub-directory
 if [ $(command -v "fzf") ]; then
-  # Caution, this path does not exist in some Linux distrubutions
+  # Caution, this path does not exist in some Linux distributions
+  # TODO: adjust the path in function of the distribution
   # source /usr/share/fzf/completion.zsh
+  source /usr/share/zsh/site-functions/fzf
   # Cuation, this path changes in different Linux distributions
+  # TODO: adjust the path in function of the distribution
   # source /usr/share/fzf/key-bindings.zsh
   source /usr/share/fzf/shell/key-bindings.zsh
 fi
