@@ -59,7 +59,9 @@ autoload -Uz edit-command-line
 zle -N edit-command-line
 bindkey -M vicmd v edit-command-line
 
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# Caution, this path changes in different Linux distributions
+# source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 
 source ~/.config/zsh/external/bd.zsh
@@ -79,8 +81,11 @@ for index ({1..9}) alias "$index"="cd +${index}"; unset index
 # - CTRL+r to search in history
 # - ALT+c to navigate into a sub-directory
 if [ $(command -v "fzf") ]; then
-  source /usr/share/fzf/completion.zsh
-  source /usr/share/fzf/key-bindings.zsh
+  # Caution, this path does not exist in some Linux distrubutions
+  # source /usr/share/fzf/completion.zsh
+  # Cuation, this path changes in different Linux distributions
+  # source /usr/share/fzf/key-bindings.zsh
+  source /usr/share/fzf/shell/key-bindings.zsh
 fi
 export FZF_DEFAULT_COMMAND="rg --files --hidden --glob '!.git'"
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
