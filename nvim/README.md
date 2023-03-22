@@ -7,7 +7,8 @@ This configuration adds some extensions:
 
 - <C-x> to close buffer.
 - hop.nvim instead of leap and flit.
-- LSP and Tresitter configured for C++ and Rust (with rust-tools).
+- LSP and Tresitter configured for C++ (with ccls, the binary must be installed)
+and Rust (with rust-tools).
 - lspsaga outline, finder, incoming calls and outgoing calls. 
 - DAP and DAPUI with mappings.
 - vimtex for LaTeX.
@@ -25,6 +26,8 @@ This configuration adds some extensions:
 - Minimal notifications in nvim-notify.
 - vim-illuminate.
 - git-messenger and vim-gitgutter.
+- diffview.nvim (`:DiffviewOpen`, `DiffviewFileHistory`): open git diff and
+file history view in new tab.
 - vim-mundo (undo tree).
 - targets.nvim (new selection targets, like parenthesis).
 - ferret (powerful find and replace).
