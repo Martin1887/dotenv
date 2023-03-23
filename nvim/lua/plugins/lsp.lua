@@ -21,9 +21,20 @@ return {
   },
   -- C++
   {
-    "MaskRay/ccls",
+    "clangd/clangd",
     config = function()
-      require("lspconfig").ccls.setup({})
+      local default_capabilities = {
+        textDocument = {
+          completion = {
+            editsNearCursor = true,
+          },
+        },
+        offsetEncoding = { "utf-16" },
+      }
+      require("lspconfig").clangd.setup({
+
+        capabilities = default_capabilities,
+      })
     end,
   },
   -- Rust

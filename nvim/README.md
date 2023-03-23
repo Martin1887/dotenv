@@ -7,7 +7,8 @@ This configuration adds some extensions:
 
 - <C-x> to close buffer.
 - hop.nvim instead of leap and flit.
-- LSP and Tresitter configured for C++ (with ccls, the binary must be installed)
+- LSP and Tresitter configured for C++ (with clangd,
+the binary must be installed but could be installed using Mason)
 and Rust (with rust-tools).
 - lspsaga outline, finder, incoming calls and outgoing calls. 
 - DAP and DAPUI with mappings.
