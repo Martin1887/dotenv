@@ -97,6 +97,10 @@ export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 # bat theme
 export BAT_THEME=zenburn
 
+# aliases
+alias wezterm="flatpak run org.wezfurlong.wezterm"
+alias foliate="/usr/bin/com.github.johnfactotum.Foliate"
+
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
 
