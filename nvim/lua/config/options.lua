@@ -7,3 +7,8 @@ local opt = vim.opt
 opt.termguicolors = true
 -- Replace `~` by space as enf-of-buffer
 opt.fcs = "eob: "
+
+-- set tab width to 4 spaces
+opt.tabstop = 4
+-- writing tab means 4 spaces, in Lua files 2 spaces can be written instead
+opt.shiftwidth = 4
