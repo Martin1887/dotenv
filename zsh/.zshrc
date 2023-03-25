@@ -94,6 +94,9 @@ fi
 export FZF_DEFAULT_COMMAND="rg --files --hidden --glob '!.git'"
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 
+# bat theme
+export BAT_THEME=zenburn
+
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
 
