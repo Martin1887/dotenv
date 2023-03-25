@@ -14,7 +14,9 @@ local function map(mode, lhs, rhs, opts)
 end
 
 -- C-x to close buffer
-map("n", "<C-x>", "<cmd>bdelete<cr>", { desc = "close buffer", silent = true, noremap = true })
+map("n", "<C-x>", function()
+  require("mini.bufremove").delete(0, false)
+end, { desc = "Delete buffer", silent = true, noremap = true })
 
 -- projects
 map(
