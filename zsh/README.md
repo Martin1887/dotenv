@@ -13,3 +13,4 @@ mappings are available:
 - CTRL+r to search in history
 - ALT+c to navigate into a sub-directory
 
+zoxide and starship must also be installed.
