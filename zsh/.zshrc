@@ -97,6 +97,10 @@ export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 # bat theme
 export BAT_THEME=zenburn
 
+# Fast Downward CPLEX environment variables
+export DOWNWARD_CPLEX_ROOT=/opt/ibm/ILOG/CPLEX_Studio1210/cplex
+export DOWNWARD_COIN_ROOT=/opt/coin/Osi-0.107.9
+
 # aliases
 alias wezterm="flatpak run org.wezfurlong.wezterm"
 alias foliate="/usr/bin/com.github.johnfactotum.Foliate"
