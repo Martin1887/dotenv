@@ -105,17 +105,17 @@ return {
         -- TODO: check grammar on comments, not working
         filetypes = {
           "bib",
-          "c++",
-          "cpp",
+          -- "c++",
+          -- "cpp",
           "gitcommit",
-          "lua",
+          -- "lua",
           "markdown",
           "org",
           "pandoc",
           "plaintex",
           "rst",
           "rnoweb",
-          "rust",
+          -- "rust",
           "tex",
         },
         settings = {
