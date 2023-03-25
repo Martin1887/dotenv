@@ -1,0 +1,11 @@
+[character]
+success_symbol = "[❯](bold #008700)"
+
+[nodejs]
+style = "bold #008700"
+disabled = true
+
+[directory]
+style = "bold blue"
+truncation_length = 87
+truncate_to_repo = false
