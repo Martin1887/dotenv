@@ -8,3 +8,8 @@ cd $root_path/nvim
 cd $root_path/zsh
 ./install.sh
 
+cd $root_path/starship
+./install.sh
+
+cd $root_path/wezterm
+./install.sh
