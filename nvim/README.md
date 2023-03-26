@@ -22,7 +22,7 @@ and Rust (with rust-tools).
 - Telescope-fzf-native.
 - Telescope projects with `<space>p`.
 - Telescope LaTeX and math symbols with `<space>tl`.
-- melange colorscheme.
+- mellifluous (configured as default) and melange colorschemes.
 - nvim-scrollbar.
 - Minimal notifications in nvim-notify.
 - vim-illuminate.
