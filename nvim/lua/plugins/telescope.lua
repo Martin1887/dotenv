@@ -13,7 +13,13 @@ return {
   {
     "ahmedkhalf/project.nvim",
     config = function()
-      require("project_nvim").setup {}
+      require("project_nvim").setup({
+        detection_methods = { "pattern", "lsp" },
+        patterns = { ".git", "_darcs", ".hg", ".bzr", ".svn", "package.json" },
+        show_hidden = true,
+        silent_chdir = false,
+        ignore_lsp = { "null-ls" },
+      })
     end,
-  }
+  },
 }
