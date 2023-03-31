@@ -31,9 +31,10 @@ return {
         },
         offsetEncoding = { "utf-16" },
       }
-      require("lspconfig").clangd.setup({
-
+      local lspconfig = require("lspconfig")
+      lspconfig.clangd.setup({
         capabilities = default_capabilities,
+        root_dir = lspconfig.util.root_pattern(".git"),
       })
     end,
   },
@@ -167,7 +168,7 @@ return {
     opts = function()
       local nls = require("null-ls")
       return {
-        root_dir = require("null-ls.utils").root_pattern(".null-ls-root", ".neoconf.json", "Makefile", ".git"),
+        root_dir = require("null-ls.utils").root_pattern(".null-ls-root", ".neoconf.json", ".git"),
         sources = {
           nls.builtins.formatting.fish_indent,
           nls.builtins.diagnostics.fish,
@@ -176,6 +177,10 @@ return {
           nls.builtins.diagnostics.flake8,
           nls.builtins.diagnostics.codespell.with({
             args = { "-L crate,Crate,crates,Crates", "-" },
+          }),
+          nls.builtins.formatting.uncrustify.with({
+            filetypes = { "c", "cpp", "h", "hh" },
+            extra_args = { "-c", ".uncrustify.cfg" },
           }),
         },
       }
