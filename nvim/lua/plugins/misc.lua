@@ -22,4 +22,26 @@ return {
   -- markdown and pandoc
   { "vim-pandoc/vim-pandoc-syntax" },
   { "vim-pandoc/vim-pandoc" },
+  -- barbar (bufferline)
+  { "akinsho/bufferline.nvim", enabled = false },
+  {
+    "romgrk/barbar.nvim",
+    -- version = "^1.0.0",
+    dependencies = {
+      { "nvim-tree/nvim-web-devicons" },
+    },
+    opts = {
+      auto_hide = true,
+      exclude_ft = {},
+      exclude_name = {},
+      icons = {
+        diagnostics = {
+          [vim.diagnostic.severity.ERROR] = { enabled = true },
+          [vim.diagnostic.severity.WARN] = { enabled = true },
+          [vim.diagnostic.severity.INFO] = { enabled = false },
+          [vim.diagnostic.severity.HINT] = { enabled = true },
+        },
+      },
+    },
+  },
 }

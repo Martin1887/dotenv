@@ -5,7 +5,8 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
 
 This configuration adds some extensions:
 
-- <C-x> to close buffer.
+- barbar (buffferline) with <C-x> to delete buffer and <C-p> to
+pick buffer by letter.
 - hop.nvim instead of leap and flit.
 - LSP and Tresitter configured for C++ (with clangd,
 the binary must be installed but could be installed using Mason)
