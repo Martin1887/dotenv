@@ -12,3 +12,5 @@ opt.fcs = "eob: "
 opt.tabstop = 4
 -- writing tab means 4 spaces, in Lua files 2 spaces can be written instead
 opt.shiftwidth = 4
+
+opt.colorcolumn = "80,90,100"
