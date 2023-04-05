@@ -1,6 +1,6 @@
 return {
   {
-    "savq/melange-nvim",
+    "https://github.com/Martin1887/melangeDarkerWarm-nvim",
     config = function()
       vim.g.melange_enable_font_variants = 0
     end,
@@ -62,7 +62,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "mellifluous",
+      colorscheme = "melange",
     },
   },
 }
