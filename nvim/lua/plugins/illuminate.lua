@@ -22,14 +22,13 @@ return {
         end,
       })
 
-    -- Change background of highlighted items instead of underlining them
-    vim.api.nvim_set_hl(0, "IlluminatedWordText", { link = "Visual" })
-    vim.api.nvim_set_hl(0, "IlluminatedWordRead", { link = "Visual" })
-    vim.api.nvim_set_hl(0, "IlluminatedWordWrite", { link = "Visual" })
-    vim.cmd("hi IlluminatedWordText guibg=#875715")
-    vim.cmd("hi IlluminatedWordRead guibg=#875715")
-    vim.cmd("hi IlluminatedWordWrite guibg=#875715")
-
-    end
-  }
+      -- Change background of highlighted items instead of underlining them
+      vim.api.nvim_set_hl(0, "IlluminatedWordText", { link = "Visual" })
+      vim.api.nvim_set_hl(0, "IlluminatedWordRead", { link = "Visual" })
+      vim.api.nvim_set_hl(0, "IlluminatedWordWrite", { link = "Visual" })
+      vim.cmd("hi IlluminatedWordText guibg=#876040")
+      vim.cmd("hi IlluminatedWordRead guibg=#877640")
+      vim.cmd("hi IlluminatedWordWrite guibg=#876040")
+    end,
+  },
 }
