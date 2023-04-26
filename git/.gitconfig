@@ -1,0 +1,37 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+#	name = username
+#	email = email
+
+[core]
+	pager = delta
+
+[interactive]
+	diffFilter = delta --color-only
+[add.iteractive]
+	useBuiltin = false
+
+[delta]
+	navivate = true
+	light = false
+	syntax-theme = zenburn
+
+[merge]
+	conflictstyle = diff3
+
+[diff]
+	colorMoved = default
+    tool = difftastic
+[difftool]
+    prompt = false
+[difftool "difftastic"]
+    cmd = difft "$LOCAL" "$REMOTE"
+[pager]
+    difftool = true
+
+[author]
+# Please adapt and uncomment the following lines:
+#	name = name
+#	email = email
+
