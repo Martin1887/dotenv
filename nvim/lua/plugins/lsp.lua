@@ -63,6 +63,9 @@ return {
               checkOnSave = {
                 command = "clippy",
               },
+              cargo = {
+                features = "all",
+              },
             },
           },
         },
