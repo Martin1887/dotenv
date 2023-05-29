@@ -7,6 +7,7 @@ This configuration adds some extensions:
 
 - barbar (buffferline) with <C-x> to delete buffer and <C-p> to
 pick buffer by letter.
+- no-neck-pain (zen mode like) with width=120 using `<space>uz`.
 - hop.nvim instead of leap and flit.
 - LSP and Tresitter configured for C++ (with clangd,
 the binary must be installed but could be installed using Mason)

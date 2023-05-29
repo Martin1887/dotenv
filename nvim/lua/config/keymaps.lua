@@ -67,6 +67,9 @@ map(
   { desc = "Sort buffers by window number", silent = true, noremap = true }
 )
 
+-- No neck pain (zen mode like)
+map("n", "<leader>uz", "<cmd>NoNeckPain<cr>", { desc = "No neck pain (zen mode)", silent = true, noremap = true })
+
 -- projects
 map(
   "n",
