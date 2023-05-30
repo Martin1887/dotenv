@@ -40,5 +40,5 @@ file history view in new tab.
 - vim-repeat (better dot operator).
 - splitjoin.vim (`gS` to split and `gJ` to join).
 - vim-matchup for better `%`.
-- nvim-ts-rainbow for colorized parenthesis.
-- 
+- `HiPhish/nvim-ts-rainbow2` for colorized parenthesis.
+

@@ -13,9 +13,7 @@ return {
   { "AndrewRadev/splitjoin.vim" },
   -- better '%'
   { "andymass/vim-matchup" },
-  -- TODO: nvim-ts-rainbow parentheses, recently archived
-  -- This fork seems the most updated but keep active search
-  { "mrjones2014/nvim-ts-rainbow" },
+  { "HiPhish/nvim-ts-rainbow2" },
   -- LaTeX symbols in telescope
   { "nvim-telescope/telescope-symbols.nvim" },
   { "lervag/vimtex" },
