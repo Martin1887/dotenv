@@ -3,8 +3,10 @@
 A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
 Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
 
-This configuration adds some extensions:
+This configuration adds some extensions and customizations:
 
+- neo-tree source selector winbar and mappings, navigation with
+`h` and `l` and modified untracked files highlight.
 - barbar (buffferline) with <C-x> to delete buffer and <C-p> to
 pick buffer by letter.
 - no-neck-pain (zen mode like) with width=120 using `<space>uz`.
