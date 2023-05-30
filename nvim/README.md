@@ -7,6 +7,7 @@ This configuration adds some extensions and customizations:
 
 - neo-tree source selector winbar and mappings, navigation with
 `h` and `l` and modified untracked files highlight.
+- Customized lualine with words count, lines and count, encoding and filetype.
 - barbar (buffferline) with <C-x> to delete buffer and <C-p> to
 pick buffer by letter.
 - no-neck-pain (zen mode like) with width=120 using `<space>uz`.
