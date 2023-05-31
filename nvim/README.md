@@ -14,7 +14,8 @@ pick buffer by letter.
 - hop.nvim instead of leap and flit.
 - LSP and Tresitter configured for C++ (with clangd,
 the binary must be installed but could be installed using Mason)
-and Rust (with rust-tools).
+, Rust (with rust-tools) and Python (`ruff` for diagnostics, `black`
+for formatting and `pylyzer` for LSP, all available via Mason).
 - lspsaga outline, finder, incoming calls and outgoing calls. 
 - DAP and DAPUI with mappings.
 - vimtex for LaTeX.

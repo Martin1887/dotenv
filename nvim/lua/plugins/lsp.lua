@@ -161,6 +161,7 @@ return {
           },
         },
         marksman = {},
+        pylyzer = {},
       },
     },
   },
@@ -175,9 +176,10 @@ return {
         sources = {
           nls.builtins.formatting.fish_indent,
           nls.builtins.diagnostics.fish,
+          nls.builtins.formatting.black,
+          nls.builtins.diagnostics.ruff,
           nls.builtins.formatting.stylua,
           nls.builtins.formatting.shfmt,
-          nls.builtins.diagnostics.flake8,
           nls.builtins.diagnostics.codespell.with({
             args = { "-L crate,Crate,crates,Crates", "-" },
           }),
