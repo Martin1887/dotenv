@@ -12,7 +12,7 @@ return {
   "nvim-lualine/lualine.nvim",
   opts = {
     options = {
-      theme = "auto",
+      theme = "melange",
     },
     sections = {
       lualine_y = {
