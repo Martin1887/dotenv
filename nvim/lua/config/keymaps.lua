@@ -164,7 +164,7 @@ map(
 map(
   "n",
   "<leader>do",
-  "<cmd>lua require'da'.step_over()<cr>",
+  "<cmd>lua require'dap'.step_over()<cr>",
   { desc = "DAP step over", silent = true, noremap = true }
 )
 map(
