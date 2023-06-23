@@ -136,7 +136,7 @@ return {
             },
             completionEnabled = true,
             -- "edit", "save" or "manual"
-            checkFrequency = "edit",
+            checkFrequency = "save",
           },
         },
       })
