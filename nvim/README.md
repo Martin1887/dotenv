@@ -10,6 +10,7 @@ This configuration adds some extensions and customizations:
 - Customized lualine with words count, lines and count, encoding and filetype.
 - barbar (buffferline) with <C-x> to delete buffer and <C-p> to
 pick buffer by letter.
+- Legendary command-palette-like search with `<space>P`.
 - no-neck-pain (zen mode like) with width=120 using `<space>uz`.
 - hop.nvim instead of leap and flit.
 - LSP and Tresitter configured for C++ (with clangd,
