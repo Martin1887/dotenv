@@ -71,4 +71,7 @@ return {
       -- dependencies = { 'kkharji/sqlite.lua' }
     },
   },
+  {
+    "cpea2506/relative-toggle.nvim",
+  },
 }
