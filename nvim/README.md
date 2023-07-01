@@ -19,7 +19,7 @@ the binary must be installed but could be installed using Mason)
 , Rust (with rust-tools) and Python (`ruff` for diagnostics, `black`
 for formatting and `pylyzer` for LSP, all available via Mason).
 - lspsaga outline, finder, incoming calls and outgoing calls. 
-- DAP and DAPUI with mappings.
+- DAP, DAPUI and nvim-dap-virtual-text with mappings.
 - vimtex for LaTeX.
 - vim-pandoc and vim-pandoc-syntax.
 - ltex-ls for text, Markrdown and LaTeX files.
