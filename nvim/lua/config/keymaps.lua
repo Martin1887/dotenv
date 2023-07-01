@@ -202,6 +202,12 @@ map("n", "<F11>", "<cmd>lua require'dap'.step_into()<cr>", { desc = "DAP step in
 map("n", "<leader>dO", "<cmd>lua require'dap'.step_out()<cr>", { desc = "DAP step out", silent = true, noremap = true })
 map("n", "<F12>", "<cmd>lua require'dap'.step_out()<cr>", { desc = "DAP step out", silent = true, noremap = true })
 map("n", "<leader>dr", "<cmd>lua require'dap'.repl.open()<cr>", { desc = "DAP REPL", silent = true, noremap = true })
+map(
+  "n",
+  "<leader>dK",
+  "<cmd>lua require'dap.ui.widgets'.hover()<cr>",
+  { desc = "DAP widget hover", silent = true, noremap = true }
+)
 
 map("n", "<leader>duo", "<cmd>lua require('dapui').open()<cr>", { desc = "DAP UI open", silent = true, noremap = true })
 map(
