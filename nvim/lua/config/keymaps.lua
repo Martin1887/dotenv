@@ -198,7 +198,7 @@ map(
   "<cmd>lua require'dap'.step_into()<cr>",
   { desc = "DAP step into", silent = true, noremap = true }
 )
-map("n", "<F11>", "<cmd>lua require'dap'.step_into()<cr>", { desc = "DAP step into", silent = true, noremap = true })
+map("n", "<F7>", "<cmd>lua require'dap'.step_into()<cr>", { desc = "DAP step into", silent = true, noremap = true })
 map("n", "<leader>dO", "<cmd>lua require'dap'.step_out()<cr>", { desc = "DAP step out", silent = true, noremap = true })
 map("n", "<F12>", "<cmd>lua require'dap'.step_out()<cr>", { desc = "DAP step out", silent = true, noremap = true })
 map("n", "<leader>dr", "<cmd>lua require'dap'.repl.open()<cr>", { desc = "DAP REPL", silent = true, noremap = true })
