@@ -157,7 +157,31 @@ map(
 )
 map(
   "n",
+  "<leader>dB",
+  "<cmd>lua require'dap'.clear_breakpoints()<cr>",
+  { desc = "DAP Clear breakpoints", silent = true, noremap = true }
+)
+map(
+  "n",
+  "<leader>dt",
+  "<cmd>lua require'dap'.terminate()<cr>",
+  { desc = "DAP Terminate session", silent = true, noremap = true }
+)
+map(
+  "n",
+  "<leader>dl",
+  "<cmd>lua require'dap'.run_last()<cr>",
+  { desc = "DAP run last session", silent = true, noremap = true }
+)
+map(
+  "n",
   "<leader>dc",
+  "<cmd>lua require'dap'.continue()<cr>",
+  { desc = "DAP continue (launch/resume)", silent = true, noremap = true }
+)
+map(
+  "n",
+  "<F5>",
   "<cmd>lua require'dap'.continue()<cr>",
   { desc = "DAP continue (launch/resume)", silent = true, noremap = true }
 )
@@ -167,12 +191,16 @@ map(
   "<cmd>lua require'dap'.step_over()<cr>",
   { desc = "DAP step over", silent = true, noremap = true }
 )
+map("n", "<F10>", "<cmd>lua require'dap'.step_over()<cr>", { desc = "DAP step over", silent = true, noremap = true })
 map(
   "n",
   "<leader>di",
   "<cmd>lua require'dap'.step_into()<cr>",
   { desc = "DAP step into", silent = true, noremap = true }
 )
+map("n", "<F11>", "<cmd>lua require'dap'.step_into()<cr>", { desc = "DAP step into", silent = true, noremap = true })
+map("n", "<leader>dO", "<cmd>lua require'dap'.step_out()<cr>", { desc = "DAP step out", silent = true, noremap = true })
+map("n", "<F12>", "<cmd>lua require'dap'.step_out()<cr>", { desc = "DAP step out", silent = true, noremap = true })
 map("n", "<leader>dr", "<cmd>lua require'dap'.repl.open()<cr>", { desc = "DAP REPL", silent = true, noremap = true })
 
 map("n", "<leader>duo", "<cmd>lua require('dapui').open()<cr>", { desc = "DAP UI open", silent = true, noremap = true })
