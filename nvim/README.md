@@ -46,4 +46,5 @@ file history view in new tab.
 - splitjoin.vim (`gS` to split and `gJ` to join).
 - vim-matchup for better `%`.
 - `https://github.com/hiphish/rainbow-delimiters.nvim` for colorized parenthesis.
+- boole to cycle among boolean values.
 

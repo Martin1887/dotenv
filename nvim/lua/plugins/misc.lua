@@ -74,4 +74,15 @@ return {
   {
     "cpea2506/relative-toggle.nvim",
   },
+  {
+    "nat-418/boole.nvim",
+    config = function()
+      require("boole").setup({
+        mappings = {
+          increment = "<C-a>",
+          decrement = "<C-z>",
+        },
+      })
+    end,
+  },
 }
