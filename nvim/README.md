@@ -47,4 +47,5 @@ file history view in new tab.
 - vim-matchup for better `%`.
 - `https://github.com/hiphish/rainbow-delimiters.nvim` for colorized parenthesis.
 - boole to cycle among boolean values.
-
+- tint to tint inactive windows.
+- FeMaco for float buffers in embedded other languages code blocks with `<leader>ce`.

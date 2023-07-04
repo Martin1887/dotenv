@@ -88,6 +88,9 @@ map(
 -- Telescope undo
 map("n", "<leader>tu", "<cmd>Telescope undo<cr>", { desc = "Telescope undo", silent = true, noremap = true })
 
+-- FeMaco
+map("n", "<leader>ce", "<cmd>FeMaco<cr>", { desc = "FeMaco float code editing", silent = true, noremap = true })
+
 -- rust-tools
 map(
   "n",
