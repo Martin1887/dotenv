@@ -38,6 +38,7 @@ for formatting and `pylyzer` for LSP, all available via Mason).
 - diffview.nvim (`:DiffviewOpen`, `DiffviewFileHistory`): open git diff and
 file history view in new tab.
 - vim-mundo (undo tree).
+- telescope-undo for Telescope undo tree changes with `<leader>tu`.
 - targets.nvim (new selection targets, like parenthesis).
 - ferret (powerful find and replace).
 - vim-abolish (`:Abolish`, `:Subvert` and coercion).

@@ -85,6 +85,8 @@ map(
   "<cmd> lua require'telescope.builtin'.symbols{ sources = {'math', 'latex'} } <cr>",
   { desc = "LaTeX symbols", silent = true, noremap = true }
 )
+-- Telescope undo
+map("n", "<leader>tu", "<cmd>Telescope undo<cr>", { desc = "Telescope undo", silent = true, noremap = true })
 
 -- rust-tools
 map(
