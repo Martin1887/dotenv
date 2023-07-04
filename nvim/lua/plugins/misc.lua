@@ -13,7 +13,7 @@ return {
   { "AndrewRadev/splitjoin.vim" },
   -- better '%'
   { "andymass/vim-matchup" },
-  { "HiPhish/nvim-ts-rainbow2" },
+  { "hiphish/rainbow-delimiters.nvim" },
   -- LaTeX symbols in telescope
   { "nvim-telescope/telescope-symbols.nvim" },
   { "lervag/vimtex" },
