@@ -91,4 +91,8 @@ return {
       require("femaco").setup()
     end,
   },
+  {
+    "chrisgrieser/nvim-spider",
+    lazy = true,
+  },
 }

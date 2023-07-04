@@ -67,6 +67,32 @@ map(
   { desc = "Sort buffers by window number", silent = true, noremap = true }
 )
 
+-- nvim-spider
+map(
+  { "n", "o", "x" },
+  "w",
+  "<cmd>lua require('spider').motion('w')<cr>",
+  { desc = "Spider-w", silent = true, noremap = true }
+)
+map(
+  { "n", "o", "x" },
+  "b",
+  "<cmd>lua require('spider').motion('b')<cr>",
+  { desc = "Spider-b", silent = true, noremap = true }
+)
+map(
+  { "n", "o", "x" },
+  "e",
+  "<cmd>lua require('spider').motion('e')<cr>",
+  { desc = "Spider-e", silent = true, noremap = true }
+)
+map(
+  { "n", "o", "x" },
+  "ge",
+  "<cmd>lua require('spider').motion('ge')<cr>",
+  { desc = "Spider-ge", silent = true, noremap = true }
+)
+
 -- No neck pain (zen mode like)
 map("n", "<leader>uz", "<cmd>NoNeckPain<cr>", { desc = "No neck pain (zen mode)", silent = true, noremap = true })
 

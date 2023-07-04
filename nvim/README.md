@@ -49,3 +49,4 @@ file history view in new tab.
 - boole to cycle among boolean values.
 - tint to tint inactive windows.
 - FeMaco for float buffers in embedded other languages code blocks with `<leader>ce`.
+- nvim-spider for subword and skipping punctuation `w,e,b,ge` movements.
