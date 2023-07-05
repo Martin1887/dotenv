@@ -46,7 +46,7 @@ file history view in new tab.
 - splitjoin.vim (`gS` to split and `gJ` to join).
 - vim-matchup for better `%`.
 - `https://github.com/hiphish/rainbow-delimiters.nvim` for colorized parenthesis.
-- boole to cycle among boolean values.
+- boole to cycle among boolean values (`<C-x>` is changed to `<C-z>`).
 - tint to tint inactive windows.
 - FeMaco for float buffers in embedded other languages code blocks with `<leader>ce`.
 - nvim-spider for subword and skipping punctuation `w,e,b,ge` movements.
