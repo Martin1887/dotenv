@@ -162,6 +162,15 @@ return {
         },
         marksman = {},
         pylyzer = {},
+        texlab = {
+          settings = {
+            texlab = {
+              chktex = {
+                onOpenAndSave = true,
+              },
+            },
+          },
+        },
       },
     },
   },

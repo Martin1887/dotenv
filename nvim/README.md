@@ -20,7 +20,7 @@ the binary must be installed but could be installed using Mason)
 for formatting and `pylyzer` for LSP, all available via Mason).
 - lspsaga outline, finder, incoming calls and outgoing calls. 
 - DAP, DAPUI and nvim-dap-virtual-text with mappings.
-- vimtex for LaTeX.
+- vimtex and texlab (with cktex enabled on save) for LaTeX.
 - vim-pandoc and vim-pandoc-syntax.
 - ltex-ls for text, Markrdown and LaTeX files.
 - Marksman in LSP for Markdown.
