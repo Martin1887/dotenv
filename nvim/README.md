@@ -13,7 +13,7 @@ This configuration adds some extensions and customizations:
 pick buffer by letter.
 - Legendary command-palette-like search with `<space>P`.
 - no-neck-pain (zen mode like) with width=120 using `<space>uz`.
-- hop.nvim instead of leap and flit.
+- flash (the new LazyVim default) has replaced hop.nvim (it was replacing the original defaults leap and flit).
 - LSP and Tresitter configured for C++ (with clangd,
 the binary must be installed but could be installed using Mason)
 , Rust (with rust-tools) and Python (`ruff` for diagnostics, `black`
