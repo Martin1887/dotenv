@@ -38,6 +38,8 @@ return {
 		cursor_fg = "#000000",
 		compose_cursor = "#ff0000",
 		background = "#000000",
+		ansi = { "#212121", "#b7141f", "#457b24", "#f6981e", "#4060bb", "#8760aa", "#0e717c", "#efefef" },
+		brights = { "#424242", "#e83b3f", "#7aba3a", "#eecc26", "#54a4f3", "#aa4dbc", "#26bbd1", "#d9d9d9" },
 	},
 	use_fancy_tab_bar = true,
 	hide_tab_bar_if_only_one_tab = true,
