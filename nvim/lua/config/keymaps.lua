@@ -174,7 +174,7 @@ map(
 )
 
 -- lspsaga
-map("n", "<leader>cs", "<cmd>Lspsaga lsp_finder<cr>", { desc = "lsp_finder", silent = true, noremap = true })
+map("n", "<leader>cs", "<cmd>Lspsaga finder<cr>", { desc = "lsp_finder", silent = true, noremap = true })
 map("n", "<leader>o", "<cmd>Lspsaga outline<cr>", { desc = "outline", silent = true, noremap = true })
 map("n", "<leader>ci", "<cmd>Lspsaga incoming_calls<cr>", { desc = "incoming calls", silent = true, noremap = true })
 map("n", "<leader>co", "<cmd>Lspsaga outgoing_calls<cr>", { desc = "Outgoing calls", silent = true, noremap = true })
