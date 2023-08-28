@@ -29,7 +29,7 @@ return {
       { "nvim-tree/nvim-web-devicons" },
     },
     opts = {
-      auto_hide = true,
+      auto_hide = false,
       exclude_ft = {},
       exclude_name = {},
       icons = {
