@@ -122,5 +122,22 @@ verbs: [
     #     external: "mv {file} {other-panel-directory}"
     #     leave_broot: false
     # }
+
+    # :cd with ctrl-l
+    {
+        invocation: "cd"
+        key: "ctrl-l"
+        shortcut: "cd"
+        from_shell: true
+        execution: "cd {directory}"
+    }
+
+    # quit also with q
+    {
+        invocation: "quit"
+        keys: ["ctrl-q","ctrl-c","q"]
+        shortcut: "q"
+        internal: ":quit"
+    }
 ]
 
