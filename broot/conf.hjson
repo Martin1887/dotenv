@@ -136,10 +136,38 @@ special_paths: {
 # uncomment and modify the next section if you want to color
 # file name depending on their extension
 #
-# ext_colors: {
-#     png: rgb(255, 128, 75)
-#     rs: yellow
-# }
+ext_colors: {
+    png: rgb(215, 187, 15)
+    jpg: rgb(215, 187, 15)
+    jpeg: rgb(215, 187, 15)
+    svg: rgb(215, 187, 187)
+    rs: rgb(126, 87, 0)
+    cc: rgb(87, 187, 255)
+    c: rgb(87, 187, 255)
+    h: rgb(215, 187, 126)
+    hh: rgb(215, 187, 126)
+    py: rgb(40, 160, 255)
+    md: rgb(215, 187, 215)
+    tex: rgb(215, 187, 160)
+    bib: rgb(187, 187, 87)
+    sty: rgb(187, 187, 215)
+    bst: rgb(187, 187, 215)
+    pdf: rgb(215, 115, 115)
+    odt: rgb(87, 160, 255)
+    doc: rgb(87, 160, 255)
+    docx: rgb(87, 160, 255)
+    ods: rgb(160, 226, 160)
+    xls: rgb(160, 226, 160)
+    xlsx: rgb(160, 226, 160)
+    odp: rgb(255, 187, 140)
+    ppt: rgb(255, 187, 140)
+    pptx: rgb(255, 187, 140)
+    tar: rgb(215, 40, 40)
+    gz: rgb(215, 40, 40)
+    tgz: rgb(215, 40, 40)
+    7z: rgb(215, 40, 40)
+    zip: rgb(215, 40, 40)
+}
 
 ###############################################################
 # Max file size for content search
