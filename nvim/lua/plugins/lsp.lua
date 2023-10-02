@@ -175,7 +175,7 @@ return {
     },
   },
   {
-    "jose-elias-alvarez/null-ls.nvim",
+    "nvimtools/none-ls.nvim",
     -- Add codespell (the other things are LazyVim defaults).
     -- It must be installed in the system, included in repositories of many distributtions.
     opts = function()
