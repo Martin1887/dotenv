@@ -14,21 +14,18 @@ pick buffer by letter.
 - Legendary command-palette-like search with `<space>P`.
 - no-neck-pain (zen mode like) with width=150 using `<space>uz`.
 - flash (the new LazyVim default) has replaced hop.nvim (it was replacing the original defaults leap and flit).
-- LSP and Tresitter configured for C++ (with clangd,
-the binary must be installed but could be installed using Mason)
-, Rust (with rust-tools) and Python (`ruff` for diagnostics, `black`
-for formatting and `pylyzer` for LSP, all available via Mason).
+- Rust, clangd, Python, Python-semshi, black and tex extras.
 - lspsaga outline, finder, incoming calls and outgoing calls. 
-- DAP, DAPUI and nvim-dap-virtual-text with mappings.
+- DAP, DAPUI and nvim-dap-virtual-text with mappings (DAP core extra).
 - vimtex and texlab (with cktex enabled on save) for LaTeX.
 - vim-pandoc and vim-pandoc-syntax.
 - ltex-ls for text, Markrdown and LaTeX files.
 - Marksman in LSP for Markdown.
-- codespell configured for diagnostics in null-ls
+- codespell configured for diagnostics in nvim-lint
 (`codespell` must be installed in the system and accessible in the PATH).
 - Supertab for snippets and completion.
 - Telescope-fzf-native.
-- Telescope projects with `<space>p`.
+- Telescope projects with `<space>p` (and project extra).
 - Telescope LaTeX and math symbols with `<space>tl`.
 - mellifluous and darker and warmer melange (default) colorschemes.
 - nvim-scrollbar.

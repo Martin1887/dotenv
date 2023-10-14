@@ -5,7 +5,6 @@ return {
       "bash",
       "c",
       "cpp",
-      "help",
       "html",
       "javascript",
       "json",
