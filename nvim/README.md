@@ -14,13 +14,13 @@ pick buffer by letter.
 - Legendary command-palette-like search with `<space>P`.
 - no-neck-pain (zen mode like) with width=150 using `<space>uz`.
 - flash (the new LazyVim default) has replaced hop.nvim (it was replacing the original defaults leap and flit).
-- Rust, clangd, Python, Python-semshi, black and tex extras.
+- Rust, clangd, Python, Python-semshi, black, markdown
+(with markdown-preview disabled) and tex extras.
 - lspsaga outline, finder, incoming calls and outgoing calls. 
 - DAP, DAPUI and nvim-dap-virtual-text with mappings (DAP core extra).
 - vimtex and texlab (with cktex enabled on save) for LaTeX.
 - vim-pandoc and vim-pandoc-syntax.
-- ltex-ls for text, Markrdown and LaTeX files.
-- Marksman in LSP for Markdown.
+- ltex-ls for text, Markdown and LaTeX files.
 - codespell configured for diagnostics in nvim-lint
 (`codespell` must be installed in the system and accessible in the PATH).
 - Supertab for snippets and completion.

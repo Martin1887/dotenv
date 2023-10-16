@@ -22,12 +22,9 @@ return {
       { "nvim-treesitter/nvim-treesitter" },
     },
   },
-  -- Markdown
   {
-    "artempyanykh/marksman",
-    config = function()
-      require("lspconfig").marksman.setup({})
-    end,
+    "iamco/markdown-preview.nvim",
+    enabled = false,
   },
   -- LanguageTool
   {
@@ -100,7 +97,6 @@ return {
             },
           },
         },
-        marksman = {},
         texlab = {
           settings = {
             texlab = {
