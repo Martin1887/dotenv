@@ -13,7 +13,7 @@ return {
     },
   },
   {
-    "iamco/markdown-preview.nvim",
+    "iamcco/markdown-preview.nvim",
     enabled = false,
   },
   -- LanguageTool
