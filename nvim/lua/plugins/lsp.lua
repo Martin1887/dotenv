@@ -1,13 +1,3 @@
-require("conform.formatters.uncrustify").args = function(ctx)
-  local args = { "--stdin-filepath", "$FILENAME" }
-  local found = vim.fs.find(".uncrustify.cfg", { upward = true, path = ctx.dirname })[1]
-  if found then
-    vim.list_extend(args, { "-c", found })
-  end
-
-  return args
-end
-
 require("lint").linters.codespell.args = { "-L crate,Crate,crates,Crates", "-" }
 
 return {
@@ -112,13 +102,23 @@ return {
   {
     "stevearc/conform.nvim",
     opts = {
+      formatters = {
+        uncrustify = {
+          prepend_args = function(ctx)
+            local found = vim.fs.find(".uncrustify.cfg", { upward = true, path = ctx.dirname })[1]
+            if found then
+              return { "-c", found }
+            end
+
+            return {}
+          end,
+        },
+      },
       formatters_by_ft = {
         lua = { "stylua" },
         sh = { "shfmt" },
         c = { "uncrustify" },
         cpp = { "uncrustify" },
-        h = { "uncrustify" },
-        hh = { "uncrustify" },
       },
     },
   },
