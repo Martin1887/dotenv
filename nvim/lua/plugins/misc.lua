@@ -49,7 +49,6 @@ return {
   },
   {
     "mrjones2014/legendary.nvim",
-    version = "v2.12.2",
     -- since legendary.nvim handles all your keymaps/commands,
     -- its recommended to load legendary.nvim before other plugins
     priority = 10000,
@@ -59,12 +58,15 @@ return {
     },
     opts = {
       sort = { frecency = false },
-      lazy_nvim = {
-        auto_register = true,
-      },
-      which_key = {
-        auto_register = true,
-        use_groups = false,
+      extensions = {
+        lazy_nvim = {
+          auto_register = true,
+        },
+        which_key = {
+          auto_register = true,
+          use_groups = false,
+        },
+        diffview = true,
       },
       -- sqlite is only needed if you want to use frecency sorting
       -- dependencies = { 'kkharji/sqlite.lua' }
