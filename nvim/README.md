@@ -5,6 +5,8 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
 
 This configuration adds some extensions and customizations:
 
+- `persisted.nvim` instead of `persistence` for better sessions management
+tracking git branches and with Telescope list.
 - neo-tree source selector winbar and mappings, navigation with
 `h` and `l` and modified untracked files highlight.
 - Customized lualine with words count, lines and count, encoding and filetype.
