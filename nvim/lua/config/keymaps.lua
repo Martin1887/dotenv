@@ -188,9 +188,9 @@ map(
 )
 map(
   "n",
-  "<leader>dB",
+  "<leader>dR",
   "<cmd>lua require'dap'.clear_breakpoints()<cr>",
-  { desc = "DAP Clear breakpoints", silent = true, noremap = true }
+  { desc = "DAP Remove breakpoints", silent = true, noremap = true }
 )
 map(
   "n",
