@@ -14,3 +14,6 @@ opt.tabstop = 4
 opt.shiftwidth = 4
 
 opt.colorcolumn = "80,90,100"
+
+-- disable ferret auto mappings
+vim.g.FerretMap = 0
