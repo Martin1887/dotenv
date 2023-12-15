@@ -45,4 +45,5 @@ return {
 	hide_tab_bar_if_only_one_tab = true,
 	scrollback_lines = 20000,
 	font = wezterm.font("FiraCode Nerd Font Ret"),
+	warn_about_missing_glyphs = false,
 }
