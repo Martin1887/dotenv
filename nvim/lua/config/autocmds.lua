@@ -26,7 +26,7 @@ vim.api.nvim_create_autocmd({ "User" }, {
 -- conceal disabled by default in Markdown and LaTeX, it is not very useful in
 -- TUI because many things are not correctly displayed
 vim.api.nvim_create_autocmd({ "FileType" }, {
-  pattern = { "md", "tex" },
+  pattern = { "markdown", "tex" },
   callback = function()
     vim.wo.conceallevel = 0
   end,
