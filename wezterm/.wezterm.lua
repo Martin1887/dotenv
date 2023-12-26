@@ -14,13 +14,13 @@ return {
 	keys = {
 		-- Vim-like panes operations
 		{ key = "h", mods = "SHIFT|CTRL", action = act.ActivatePaneDirection("Left") },
-		{ key = "h", mods = "SHIFT|ALT|CTRL", action = act.AdjustPaneSize({ "Left", 1 }) },
+		{ key = "h", mods = "SHIFT|ALT", action = act.AdjustPaneSize({ "Left", 1 }) },
 		{ key = "l", mods = "SHIFT|CTRL", action = act.ActivatePaneDirection("Right") },
-		{ key = "l", mods = "SHIFT|ALT|CTRL", action = act.AdjustPaneSize({ "Right", 1 }) },
+		{ key = "l", mods = "SHIFT|ALT", action = act.AdjustPaneSize({ "Right", 1 }) },
 		{ key = "k", mods = "SHIFT|CTRL", action = act.ActivatePaneDirection("Up") },
-		{ key = "k", mods = "SHIFT|ALT|CTRL", action = act.AdjustPaneSize({ "Up", 1 }) },
+		{ key = "k", mods = "SHIFT|ALT", action = act.AdjustPaneSize({ "Up", 1 }) },
 		{ key = "j", mods = "SHIFT|CTRL", action = act.ActivatePaneDirection("Down") },
-		{ key = "j", mods = "SHIFT|ALT|CTRL", action = act.AdjustPaneSize({ "Down", 1 }) },
+		{ key = "j", mods = "SHIFT|ALT", action = act.AdjustPaneSize({ "Down", 1 }) },
 		-- Split with Ctrl+Shift+r and vertical split with Ctrl+Shift+d
 		{ key = "d", mods = "SHIFT|CTRL", action = act.SplitVertical({ domain = "CurrentPaneDomain" }) },
 		{ key = "r", mods = "SHIFT|CTRL", action = act.SplitHorizontal({ domain = "CurrentPaneDomain" }) },
