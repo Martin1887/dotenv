@@ -47,6 +47,8 @@ return {
       width = 150,
     },
   },
+  -- resize using Alt+direction
+  { "mrjones2014/smart-splits.nvim", lazy = false, version = ">=1.0.0" },
   {
     "mrjones2014/legendary.nvim",
     -- since legendary.nvim handles all your keymaps/commands,
@@ -67,6 +69,7 @@ return {
           use_groups = false,
         },
         diffview = true,
+        smart_splits = {},
       },
       -- sqlite is only needed if you want to use frecency sorting
       -- dependencies = { 'kkharji/sqlite.lua' }
