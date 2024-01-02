@@ -39,7 +39,6 @@ return {
           -- "lua",
           "markdown",
           "org",
-          "pandoc",
           "plaintex",
           "rst",
           "rnoweb",

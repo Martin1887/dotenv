@@ -16,9 +16,6 @@ return {
   { "hiphish/rainbow-delimiters.nvim" },
   -- LaTeX symbols in telescope
   { "nvim-telescope/telescope-symbols.nvim" },
-  -- markdown and pandoc
-  { "vim-pandoc/vim-pandoc-syntax" },
-  { "vim-pandoc/vim-pandoc" },
   -- barbar (bufferline)
   { "akinsho/bufferline.nvim", enabled = false },
   {

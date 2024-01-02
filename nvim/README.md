@@ -21,7 +21,6 @@ pick buffer by letter.
 - lspsaga outline, finder, incoming calls and outgoing calls. 
 - DAP, DAPUI and nvim-dap-virtual-text with mappings (DAP core extra).
 - vimtex and texlab (with cktex enabled on save) for LaTeX.
-- vim-pandoc and vim-pandoc-syntax.
 - ltex-ls for text, Markdown and LaTeX files.
 - codespell configured for diagnostics in nvim-lint
 (`codespell` must be installed in the system and accessible in the PATH).
