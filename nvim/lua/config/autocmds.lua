@@ -4,6 +4,7 @@
 
 -- change neo-tree untracked files highlight
 vim.cmd("hi NeoTreeGitUntracked guifg=#eebb15")
+vim.cmd("hi NeoTreeGitUnstaged guifg=#DD8764")
 
 -- codespell with nvim-lint for specified and all filetypes
 vim.cmd('autocmd BufEnter,BufWritePost,InsertLeave * lua require("lint").try_lint()')
