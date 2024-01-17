@@ -103,7 +103,7 @@ return {
     opts = {
       formatters = {
         uncrustify = {
-          prepend_args = function(ctx)
+          prepend_args = function(self, ctx)
             local found = vim.fs.find(".uncrustify.cfg", { upward = true, path = ctx.dirname })[1]
             if found then
               return { "-c", found }
