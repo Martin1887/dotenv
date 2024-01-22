@@ -27,6 +27,22 @@ return {
         telescope.load_extension("persisted")
       end)
     end,
+    keys = {
+      {
+        "<leader>f.f",
+        function()
+          require("telescope.builtin").find_files({ hidden = true })
+        end,
+        desc = "Find HIdden Files (root dir)",
+      },
+      {
+        "<leader>f.F",
+        function()
+          require("telescope.builtin").find_files({ hidden = true, cwd = false })
+        end,
+        desc = "Find HIdden Files (root dir)",
+      },
+    },
   },
   {
     "debugloop/telescope-undo.nvim",
