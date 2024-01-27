@@ -16,6 +16,8 @@ end
 -- Map ¡ (very more usable in Spanish keyboards) to ^
 map("n", "¡", "^", { desc = "Start of line (non-blank)", silent = true, noremap = true })
 
+-- C-q to close window
+map("n", "<C-q>", "<C-w>q", { desc = "Delete buffer", silent = true, noremap = true })
 -- C-x to close buffer and barbar mappings
 map("n", "<C-x>", "<cmd>BufferClose<cr>", { desc = "Delete buffer", silent = true, noremap = true })
 map("n", "H", "<cmd>BufferPrevious<cr>", { desc = "Previous buffer", silent = true, noremap = true })

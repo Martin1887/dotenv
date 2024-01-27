@@ -7,6 +7,12 @@ This configuration adds some extensions and customizations:
 
 - `persisted.nvim` instead of `persistence` for better sessions management
 tracking git branches and with Telescope list.
+- `<C-q>` to close window and focus.nvim:
+  - `<C-.>` to split nicely (golden ratio).
+  - `<C-h/j/k/l>` to move to window in direction or create it if it does not
+    exist.
+  - `<C-m>` to maximize/set equal size of windows.
+  - `<C-,>` for golden ratio (usually used after `<C-m>`).
 - neo-tree source selector winbar and mappings, navigation with
 `h` and `l` and modified untracked files highlight.
 - Customized lualine with words count, lines and count, encoding and filetype.

@@ -96,4 +96,23 @@ return {
     "chrisgrieser/nvim-spider",
     lazy = true,
   },
+  {
+    "nvim-focus/focus.nvim",
+    enabled = true,
+    version = "*",
+    lazy = false,
+    opts = {
+      enable = true,
+      commands = true,
+    },
+    keys = {
+      { "<C-.>", "<cmd>FocusSplitNicely<cr>", desc = "Focus Split Nicely" },
+      { "<C-h>", "<cmd>FocusSplitLeft<cr>", desc = "Focus Left Window or Create it" },
+      { "<C-j>", "<cmd>FocusSplitDown<cr>", desc = "Focus Down Window or Create it" },
+      { "<C-k>", "<cmd>FocusSplitUp<cr>", desc = "Focus Up Window or Create it" },
+      { "<C-l>", "<cmd>FocusSplitRight<cr>", desc = "Focus Right Window or Create it" },
+      { "<C-m>", "<cmd>FocusMaxOrEqual<cr>", desc = "Focus Toggle Max/Equal Size" },
+      { "<C-,>", "<cmd>FocusAutoresize<cr>", desc = "Focus Autoresize as gold-ratio" },
+    },
+  },
 }
