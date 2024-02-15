@@ -2,6 +2,9 @@ return {
   {
     "petertriho/nvim-scrollbar",
     opts = {
+      handle = {
+        blend = 0,
+      },
       handlers = {
         cursor = true,
         diagnostic = true,
