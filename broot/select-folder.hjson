@@ -1,0 +1,37 @@
+verbs:
+[
+  {
+    key: enter
+    internal: ":print_path"
+    apply_to: directory
+  }
+  {
+    key: enter
+    cmd: ":parent;:print_path"
+    apply_to: file
+  }
+  {
+    key: alt-enter
+    invocation: cd
+    internal: ":print_path"
+    apply_to: directory
+  }
+  {
+    key: ctrl-l
+    invocation: cd
+    internal: ":print_path"
+    apply_to: directory
+  }
+  {
+    key: alt-enter
+    invocation: cd
+    cmd: ":parent;:print_path"
+    apply_to: file
+  }
+  {
+    key: ctrl-l
+    invocation: cd
+    cmd: ":parent;:print_path"
+    apply_to: file
+  }
+]
