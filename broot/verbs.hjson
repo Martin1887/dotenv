@@ -94,14 +94,14 @@ verbs: [
     #     key: ctrl-j
     #     execution: ":line_down"
     # }
-    # {
-    #     key: ctrl-u
-    #     execution: ":page_up"
-    # }
-    # {
-    #     key: ctrl-d
-    #     execution: ":page_down"
-    # }
+    {
+        key: ctrl-u
+        execution: ":page_up"
+    }
+    {
+        key: ctrl-d
+        execution: ":page_down"
+    }
 
     # If you develop using git, you might like to often switch
     # to the git status filter:
@@ -142,6 +142,60 @@ verbs: [
         keys: ["ctrl-q","ctrl-c","q"]
         shortcut: "q"
         internal: ":quit"
+    }
+
+    {
+        key: alt-f
+        internal: ":toggle_files"
+    }
+    {
+        key: alt-s
+        internal: ":toggle_sizes"
+    }
+    {
+        key: alt-d
+        internal: ":toggle_dates"
+    }
+    {
+        key: alt-p
+        internal: ":toggle_perm"
+    }
+    {
+        invocation: mkcd {new_dir}
+        cmd: ":mkdir {new_dir};:focus {new_dir}"
+    }
+    {
+        invocation: rmdir
+        external: rmdir {directory}
+        leave_broot: false
+    }
+    {
+        invocation: go {path}
+        internal: ":focus {path}"
+    }
+    {
+        shortcut: ~
+        internal: ":focus ~"
+    }
+    {
+        invocation: clip
+        internal: ":copy_path"
+        leave_broot: false
+    }
+    {
+        invocation: dolphin
+        external: dolphin {directory}
+        leave_broot: false
+    }
+    {
+        invocation: nautilus
+        external: nautilus {directory}
+        leave_broot: false
+    }
+    {
+        invocation: nemo
+        external: nemo {directory}
+        leave_broot: false
     }
 ]
 
