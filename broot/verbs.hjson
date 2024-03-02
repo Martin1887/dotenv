@@ -123,13 +123,17 @@ verbs: [
     #     leave_broot: false
     # }
 
-    # :cd with ctrl-l
+    # :cd also with ctrl-l avoiding eval (broot>=1.33.1 and ZSH function needed)
     {
         invocation: "cd"
         key: "ctrl-l"
         shortcut: "cd"
-        from_shell: true
-        execution: "cd {directory}"
+        cmd: ":write_output {directory};:quit"
+    }
+    {
+        key: alt-enter
+        invocation: cd
+        cmd: ":write_output {directory};:quit"
     }
 
     # quit also with q

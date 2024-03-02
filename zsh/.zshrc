@@ -68,6 +68,7 @@ source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.config/zsh/external/bd.zsh
 
 source ~/.config/zsh/external/broot_tree.zsh
+source ~/.config/zsh/external/broot.zsh
 
 # Push the current directory visited on to the stack.
 setopt AUTO_PUSHD
