@@ -109,7 +109,7 @@ return {
     "nvim-focus/focus.nvim",
     enabled = true,
     version = "*",
-    lazy = false,
+    event = "BufReadPre",
     opts = {
       enable = true,
       commands = true,
