@@ -123,10 +123,10 @@ verbs: [
     #     leave_broot: false
     # }
 
-    # :cd also with ctrl-l avoiding eval (broot>=1.33.1 and ZSH function needed)
+    # :cd also with alt-l avoiding eval (broot>=1.33.1 and ZSH function needed)
     {
         invocation: "cd"
-        key: "ctrl-l"
+        key: "alt-l"
         shortcut: "cd"
         cmd: ":write_output {directory};:quit"
     }
@@ -134,6 +134,17 @@ verbs: [
         key: alt-enter
         invocation: cd
         cmd: ":write_output {directory};:quit"
+    }
+    # panel_left_no_open with ctrl+h and panel_right with ctrl+l (vim-like)
+    {
+        invocation: "panel_left_no_open"
+        key: "ctrl-h"
+        internal: ":panel_left_no_open"
+    }
+    {
+        invocation: "panel_right"
+        key: "ctrl-l"
+        internal: ":panel_right"
     }
 
     # quit also with q
