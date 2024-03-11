@@ -122,61 +122,39 @@ map("n", "<leader>tu", "<cmd>Telescope undo<cr>", { desc = "Telescope undo", sil
 -- FeMaco
 map("n", "<leader>ce", "<cmd>FeMaco<cr>", { desc = "FeMaco float code editing", silent = true, noremap = true })
 
--- rust-tools
+-- rustaceanvim
+map("n", "<leader>rd", "<cmd>RustLsp debuggables<cr>", { desc = "Rust debuggables", silent = true, noremap = true })
+map("n", "<leader>rrn", "<cmd>RustLsp runnables<cr>", { desc = "Rust runnables", silent = true, noremap = true })
+map("n", "<leader>rt", "<cmd>RustLsp testables<cr>", { desc = "Rust testables", silent = true, noremap = true })
+map("n", "<leader>rem", "<cmd>RustLsp expandMacro<cr>", { desc = "Rust expand macro", silent = true, noremap = true })
 map(
   "n",
-  "<leader>rr",
-  "<cmd> lua require('rust-tools').runnables.runnables() <cr>",
-  { desc = "Rust runnables", silent = true, noremap = true }
+  "<leader>rrp",
+  "<cmd>RustLsp rebuildProcMacros<cr>",
+  { desc = "Rust rebuild proc macros", silent = true, noremap = true }
 )
-map(
-  "n",
-  "<leader>rem",
-  "<cmd> lua require'rust-tools'.expand_macro.expand_macro() <cr>",
-  { desc = "Rust expand macro", silent = true, noremap = true }
-)
-map(
-  "n",
-  "<leader>rmd",
-  "<cmd> lua require'rust-tools'.move_item.move_item(false) <cr>",
-  { desc = "Rust move down", silent = true, noremap = true }
-)
-map(
-  "n",
-  "<leader>rmu",
-  "<cmd> lua require'rust-tools'.move_item.move_item(true) <cr>",
-  { desc = "Rust move up", silent = true, noremap = true }
-)
-map(
-  "n",
-  "<leader>rhr",
-  "<cmd> lua require'rust-tools'.hover_range.hover_range() <cr>",
-  { desc = "Rust hover range", silent = true, noremap = true }
-)
+map("n", "<leader>rmu", "<cmd>RustLsp moveItem up<cr>", { desc = "Rust move up", silent = true, noremap = true })
+map("n", "<leader>rmd", "<cmd>RustLsp moveItem down<cr>", { desc = "Rust move down", silent = true, noremap = true })
+map("n", "<leader>rca", "<cmd>RustLsp codeAction<cr>", { desc = "Rust code action", silent = true, noremap = true })
 map(
   "n",
   "<leader>rha",
-  "<cmd> lua require'rust-tools'.hover_actions.hover_actions() <cr>",
+  "<cmd>RustLsp hover actions<cr>",
   { desc = "Rust hover actions", silent = true, noremap = true }
 )
+map("n", "<leader>rhr", "<cmd>RustLsp hover range<cr>", { desc = "Rust hover range", silent = true, noremap = true })
+map("n", "<leader>ree", "<cmd>RustLsp explainError<cr>", { desc = "Rust explainError", silent = true, noremap = true })
 map(
   "n",
-  "<leader>roc",
-  "<cmd> lua require'rust-tools'.open_cargo_toml.open_cargo_toml() <cr>",
-  { desc = "Rust open Cargo.toml", silent = true, noremap = true }
+  "<leader>rrd",
+  "<cmd>RustLsp renderDiagnostic<cr>",
+  { desc = "Rust renderDiagnostic", silent = true, noremap = true }
 )
-map(
-  "n",
-  "<leader>rpm",
-  "<cmd> lua require'rust-tools'.parent_module.parent_module() <cr>",
-  { desc = "Rust parent module", silent = true, noremap = true }
-)
-map(
-  "n",
-  "<leader>rjl",
-  "<cmd> lua require'rust-tools'.join_lines.join_lines() <cr>",
-  { desc = "Rust join lines", silent = true, noremap = true }
-)
+map("n", "<leader>roc", "<cmd>RustLsp openCargo<cr>", { desc = "Rust open Cargo.toml", silent = true, noremap = true })
+map("n", "<leader>rpm", "<cmd>RustLsp parentModule<cr>", { desc = "Rust parentModule", silent = true, noremap = true })
+map("n", "<leader>rjl", "<cmd>RustLsp joinLines<cr>", { desc = "Rust joinLines", silent = true, noremap = true })
+map("n", "<leader>rcg", "<cmd>RustLsp crateGraph<cr>", { desc = "Rust crateGraph", silent = true, noremap = true })
+map("n", "<leader>rst", "<cmd>RustLsp syntaxTree<cr>", { desc = "Rust syntaxTree", silent = true, noremap = true })
 
 -- lspsaga
 map("n", "<leader>cs", "<cmd>Lspsaga finder<cr>", { desc = "lsp_finder", silent = true, noremap = true })
@@ -237,7 +215,7 @@ map(
 map("n", "<F7>", "<cmd>lua require'dap'.step_into()<cr>", { desc = "DAP step into", silent = true, noremap = true })
 map("n", "<leader>dO", "<cmd>lua require'dap'.step_out()<cr>", { desc = "DAP step out", silent = true, noremap = true })
 map("n", "<F12>", "<cmd>lua require'dap'.step_out()<cr>", { desc = "DAP step out", silent = true, noremap = true })
-map("n", "<leader>dr", "<cmd>lua require'dap'.repl.open()<cr>", { desc = "DAP REPL", silent = true, noremap = true })
+map("n", "<leader>dur", "<cmd>lua require'dap'.repl.open()<cr>", { desc = "DAP REPL", silent = true, noremap = true })
 map(
   "n",
   "<leader>dK",
