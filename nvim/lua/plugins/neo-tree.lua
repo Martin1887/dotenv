@@ -73,5 +73,8 @@ return {
       },
       winbar = true,
     },
+    filesystem = {
+      bind_to_cwd = true,
+    },
   },
 }
