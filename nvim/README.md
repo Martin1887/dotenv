@@ -34,7 +34,8 @@ pick buffer by letter.
 - Telescope-fzf-native.
 - Telescope projects with `<space>p` (and project extra).
 - Telescope LaTeX and math symbols with `<space>tl`.
-- mellifluous and darker and warmer melange (default) colorschemes.
+- mellifluous (disabled by default) and darker and warmer melange (default)
+  colorschemes.
 - nvim-scrollbar.
 - Minimal notifications in nvim-notify.
 - vim-illuminate.
