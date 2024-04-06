@@ -50,7 +50,9 @@ file history view in new tab.
 - vim-repeat (better dot operator).
 - splitjoin.vim (`gS` to split and `gJ` to join).
 - vim-matchup for better `%`.
-- `https://github.com/hiphish/rainbow-delimiters.nvim` for colorized parenthesis.
+- `https://github.com/hiphish/rainbow-delimiters.nvim` for colorized parenthesis with colors set
+  as melangeDarkWarm theme.
+- indent-blankline customized with scope and colorful indent (dimmed) and scope lines.
 - boole to cycle among boolean values (`<C-x>` is changed to `<C-z>`).
 - tint to tint inactive windows.
 - nvim-spider for subword and skipping punctuation `w,e,b,ge` movements.
