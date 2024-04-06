@@ -94,12 +94,6 @@ return {
     end,
   },
   {
-    "AckslD/nvim-FeMaco.lua",
-    config = function()
-      require("femaco").setup()
-    end,
-  },
-  {
     "chrisgrieser/nvim-spider",
     lazy = true,
   },

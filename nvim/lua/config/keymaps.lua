@@ -123,9 +123,6 @@ map(
 -- Telescope undo
 map("n", "<leader>tu", "<cmd>Telescope undo<cr>", { desc = "Telescope undo", silent = true, noremap = true })
 
--- FeMaco
-map("n", "<leader>ce", "<cmd>FeMaco<cr>", { desc = "FeMaco float code editing", silent = true, noremap = true })
-
 -- rustaceanvim
 map("n", "<leader>rd", "<cmd>RustLsp debuggables<cr>", { desc = "Rust debuggables", silent = true, noremap = true })
 map("n", "<leader>rrn", "<cmd>RustLsp runnables<cr>", { desc = "Rust runnables", silent = true, noremap = true })
