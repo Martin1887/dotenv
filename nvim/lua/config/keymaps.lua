@@ -53,6 +53,7 @@ map(
   "<cmd>BufferOrderByBufferNumber<cr>",
   { desc = "Sort buffers by buffer number", silent = true, noremap = true }
 )
+map("n", "<leader>bsn", "<cmd>BufferOrderByName<cr>", { desc = "Sort buffers by name", silent = true, noremap = true })
 map(
   "n",
   "<leader>bsd",
