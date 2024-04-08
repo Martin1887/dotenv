@@ -41,13 +41,13 @@ return {
       -- create the highlight groups in the highlight setup hook, so they are reset
       -- every time the colorscheme changes
       hooks.register(hooks.type.HIGHLIGHT_SETUP, function()
-        vim.api.nvim_set_hl(0, "RainbowRed", { fg = "#AC2020" })
-        vim.api.nvim_set_hl(0, "RainbowYellow", { fg = "#B88A06" })
-        vim.api.nvim_set_hl(0, "RainbowBlue", { fg = "#30309B" })
-        vim.api.nvim_set_hl(0, "RainbowOrange", { fg = "#AC6706" })
-        vim.api.nvim_set_hl(0, "RainbowGreen", { fg = "#206720" })
-        vim.api.nvim_set_hl(0, "RainbowViolet", { fg = "#672067" })
-        vim.api.nvim_set_hl(0, "RainbowCyan", { fg = "#507979" })
+        vim.api.nvim_set_hl(0, "RainbowRed", { fg = "#870000" })
+        vim.api.nvim_set_hl(0, "RainbowYellow", { fg = "#707000" })
+        vim.api.nvim_set_hl(0, "RainbowBlue", { fg = "#000087" })
+        vim.api.nvim_set_hl(0, "RainbowOrange", { fg = "#876000" })
+        vim.api.nvim_set_hl(0, "RainbowGreen", { fg = "#008700" })
+        vim.api.nvim_set_hl(0, "RainbowViolet", { fg = "#700070" })
+        vim.api.nvim_set_hl(0, "RainbowCyan", { fg = "#006060" })
 
         vim.api.nvim_set_hl(0, "BrightRainbowRed", { fg = "#FF7070" })
         vim.api.nvim_set_hl(0, "BrightRainbowYellow", { fg = "#E8BB26" })
