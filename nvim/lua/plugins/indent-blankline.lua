@@ -1,4 +1,10 @@
 return {
+  -- disable mini.indentscope because its current level of indentation is worse
+  -- and animations do not pay off
+  {
+    "echasnovski/mini.indentscope",
+    enabled = false,
+  },
   {
     "lukas-reineke/indent-blankline.nvim",
     opts = function(_, opts)
