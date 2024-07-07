@@ -15,6 +15,7 @@ tracking git branches and with Telescope list.
     exist.
   - `<C-m>` to maximize/set equal size of windows.
   - `<C-,>` for golden ratio (usually used after `<C-m>`).
+- colorful-winsep.nvim for a colorful border in the active window.
 - neo-tree source selector winbar and mappings, navigation with
 `h` and `l` and modified untracked files highlight.
 - Customized lualine with words count, lines and count, encoding and filetype.
@@ -24,7 +25,7 @@ pick buffer by letter.
 - Legendary command-palette-like search with `<space>P`.
 - no-neck-pain (zen mode like) with width=150 using `<space>uz`.
 - flash (the new LazyVim default) has replaced hop.nvim (it was replacing the original defaults leap and flit).
-- Rust, clangd, Python, Python-semshi, black, markdown
+- Rust, clangd, Python, black, markdown
 (with markdown-preview disabled) and tex extras.
 - DAP, DAPUI and nvim-dap-virtual-text with mappings (DAP core extra).
 - vimtex and texlab (with cktex enabled on save) for LaTeX.
