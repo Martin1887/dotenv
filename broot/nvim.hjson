@@ -9,7 +9,7 @@
 # if you don't want the hidden files you can launch `br -H`)
 # A popular flag is the `g` one which displays git related info.
 #
-default_flags: --hidden --show-git-info --sizes
+default_flags: --hidden --no-git-ignored --show-git-info --sizes
 
 ###############################################################
 # uncomment to activate modal mode
