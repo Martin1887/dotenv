@@ -134,6 +134,7 @@ return {
     },
     keys = {
       { "<leader><space>", "<cmd>BrootProjectDir<cr>", desc = "Broot Project Dir" },
+      { "<leader>.", "<cmd>BrootCurrentDir<cr>", desc = "Broot Current Dir" },
       { "<leader>Bh", "<cmd>BrootHomeDir<cr>", desc = "Broot Home Dir" },
       { "<leader>B.", "<cmd>BrootCurrentDir<cr>", desc = "Broot Current Dir" },
       { "<leader>Bw", "<cmd>BrootWorkingDir<cr>", desc = "Broot Working Dir" },
