@@ -50,6 +50,23 @@ return {
     opts = {
       width = 150,
     },
+    keys = {
+      { "<leader>un", "<cmd>NoNeckPain<cr>", desc = "No neck pain (zen-like mode)" },
+    },
+  },
+  {
+    "folke/zen-mode.nvim",
+    opts = {
+      plugins = {
+        options = {
+          laststatus = 3,
+        },
+        twilight = { enabled = false },
+      },
+    },
+    keys = {
+      { "<leader>uz", "<cmd>ZenMode<cr>", desc = "Zen mode" },
+    },
   },
   -- resize using Alt+direction
   { "mrjones2014/smart-splits.nvim", lazy = false, version = ">=1.0.0" },
