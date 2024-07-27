@@ -34,7 +34,8 @@ pick buffer by letter.
 - ltex-ls for text, Markdown and LaTeX files.
 - codespell configured for diagnostics in nvim-lint
 (`codespell` must be installed in the system and accessible in the PATH).
-- Supertab for snippets and completion.
+- `nvim-scissors` configured for nvim-snippets with `<space>cpa` and
+`<space>cpe` to add and edit snippets.
 - Telescope-fzf-native.
 - Telescope projects with `<space>p` (and project extra).
 - Telescope LaTeX and math symbols with `<space>tl`.
