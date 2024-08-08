@@ -51,7 +51,7 @@ return {
       width = 150,
     },
     keys = {
-      { "<leader>un", "<cmd>NoNeckPain<cr>", desc = "No neck pain (zen-like mode)" },
+      { "<leader>uZ", "<cmd>NoNeckPain<cr>", desc = "No neck pain (zen-like mode)" },
     },
   },
   {
