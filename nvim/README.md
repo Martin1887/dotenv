@@ -11,11 +11,12 @@ tracking git branches and with Telescope list.
 - gitui extra (instead of lazyvim).
 - neovim-neoclip for friendly clipboard and macros history
 - `<C-q>` to close window and focus.nvim:
-  - `<C-.>` to split nicely (golden ratio).
+  - `<C-.>` to enable window autoresize (disabled by default).
+  - `<C-,>` to disable window autoresize (disabled by default).
   - `<C-h/j/k/l>` to move to window in direction or create it if it does not
     exist.
   - `<C-m>` to maximize/set equal size of windows.
-  - `<C-,>` for golden ratio (usually used after `<C-m>`).
+  - `<C-:>` to autoresize by golden ratio (default).
 - colorful-winsep.nvim for a colorful border in the active window.
 - neo-tree source selector winbar and mappings, navigation with
 `h` and `l` and modified untracked files highlight.
